@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "CI=false next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -65,6 +65,7 @@
   },
   "devDependencies": {
     "@types/uuid": "^9.0.2",
+    "eslint-config-prettier": "^9.0.0",
     "prisma": "^5.2.0"
   }
 }

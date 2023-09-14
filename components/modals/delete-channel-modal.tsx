@@ -63,7 +63,7 @@ export const DeleteChannelModal = () => {
               #{channel?.name}
             </span>{" "}
             <br />
-            <span>changes won't be undo </span>
+            <span>changes won &apos;t be undo </span>
           </DialogDescription>
         </DialogHeader>
         <DialogFooter className="bg-gray-100/90 px-6 py-4 ">
